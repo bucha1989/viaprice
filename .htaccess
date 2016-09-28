@@ -1,0 +1,5 @@
+ErrorDocument 404 /404.php
+Options All -Indexes
+
+#deny from all
+#DirectoryIndex mypage.html
