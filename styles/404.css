@@ -1,0 +1,44 @@
+    body{
+        background: #F0F0F0;
+    }
+    p{
+        text-align: center;
+        line-height: 80px;
+    }
+    
+    .error_one,.error_two{
+        font-family: 'Play', sans-serif;
+        font-size: 50pt;
+        font-weight: bold;
+        height: 80px;
+        margin-top: -3px;
+    }
+    .error_one{
+        background: #363F45;
+        color: #F0F0F0;
+    }
+    
+    .error_two{
+        background: #F0F0F0;
+        color: #363F45;
+    }
+    
+    .link{
+    font-family: 'Play', sans-serif;
+        background-color: #363F45;
+        font-size: 16pt;
+    }
+    .link a{
+        text-decoration: none;
+        color: #00BBD3;
+    }
+    
+    .link a:hover{
+        color: #008B9D;
+    }
+    
+    img{
+        width: 500px;
+        margin-top: -20px;
+
+    }

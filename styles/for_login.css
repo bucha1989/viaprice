@@ -1,0 +1,130 @@
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+
+
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
+
+body {
+	background-color: #F0F0F0;
+	color: #606468;
+	font-family: 'Play', sans-serif;
+	font-size: 11pt;
+	line-height: 1.5em;
+}
+
+a {
+	color: #eee;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+input {
+	border: none;
+	font-family: 'Play', sans-serif;
+	font-size: 11pt;
+	line-height: 1.5em;
+	padding: 0;
+	-webkit-appearance: none;
+}
+
+p {
+	line-height: 1.5em;
+}
+
+.clearfix { *zoom: 1; } /* For IE 6/7 */
+.clearfix:before, .clearfix:after {
+	display: table;
+	content: "";
+}
+.clearfix:after { clear: both; }
+
+
+#login {
+	margin: 150px auto;
+	width: 280px;
+}
+
+#login form span {
+	background-color: #363F45;
+	border-radius: 3px 0px 0px 3px;
+	-moz-border-radius: 3px 0px 0px 3px;
+	-webkit-border-radius: 3px 0px 0px 3px;
+	color: white;
+	display: block;
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	width: 50px;
+}
+
+#login form input {
+	height: 50px;
+	outline:none;
+}
+
+#login form input[type="text"], input[type="password"] {
+	background-color: #5F7C8A;
+	border-radius: 0px 3px 3px 0px;
+	-moz-border-radius: 0px 3px 3px 0px;
+	-webkit-border-radius: 0px 3px 3px 0px;
+	color: white;
+    font-size: 12pt;
+	margin-bottom: 1em;
+	padding: 0 16px;
+	width: 198px;
+}
+
+#login form input:focus {
+	color:#fff;
+    
+}
+
+#login form input[type="submit"] {
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	background-color: #00BBD3;
+	color: #eee;
+	font-weight: bold;
+	margin-bottom: 2em;
+	text-transform: uppercase;
+	cursor:pointer;
+	width: 280px;
+    font-size: 14pt;
+}
+
+#login form input[type="submit"]:hover {
+	background-color: #008B9D;
+    
+}
+
+#login > p,a {
+	text-align: center;
+    color: #5F7C8A;
+}
+
+#login > p span {
+	padding-left: 5px;
+}
+
+#pass_pgf{
+    display: none;
+}
+    
+.tip{
+    font-size: 8pt;
+    color: #008B9D;
+    margin-bottom: 5px;
+}
+
+.msg{
+    color: #FE5621;
+    font-size: 9pt;
+}

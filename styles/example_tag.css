@@ -1,0 +1,134 @@
+.main {
+    width: 399px;
+    height: 282px;
+    margin: auto;
+    font-family: arial;
+    margin-top: 15px;
+    display: none;
+}
+   
+.price_tag{
+    margin: auto;
+    float: left;
+    width: 100%;
+    height: 100%;
+    outline: 1px solid black;
+    color: black;
+    background: white;
+} 
+
+#head{
+    height: 7%;
+}
+
+#for_button{
+    float: left;
+    margin-left: 190px;
+}
+
+#for_button img{
+    width: 20px;
+    margin-top: 3px;
+}
+#brand{
+    float: right;
+    margin-top: 4px;
+    margin-right: 5px;
+}
+#brand img{
+    width: 60px;
+}
+
+#size{
+    
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 5px;
+    height: 10%;
+}
+
+#name{
+    
+    text-align: center;
+    font-weight: bold;
+    font-size: 26px;
+    padding: 5px;
+    height: 8%;
+}
+
+#decr_brief{
+    border-bottom: 1px solid black;
+    height: 17%;
+    padding: 5px;
+}
+
+#decr_brief #labels{
+    width: 20%;
+    height: 100%;
+    float: left;
+    
+}
+
+.item img{
+    height: 20px;
+    float: left;
+    margin: 2px;
+}
+
+
+
+#decr_brief #brief{
+    line-height: 16px;
+    height: 100%;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+#brief .left{
+    float: left;
+   
+}
+
+#brief .right{
+    float: right;
+     margin-right: 6px;
+}
+
+#descr{
+    outline: 1px solid black;
+    font-size: 9px;
+    height: 14%;
+    padding: 10px;
+    padding-top: 6px;
+    text-align: justify;
+    text-indent: 15px;
+}
+
+#price{
+    height: 22%;
+}
+
+#price p{
+    float: right;
+    margin-top: 24px;
+    margin-right: 35px;
+}
+
+#private{
+    font-size: 8px;
+    height: 5%;
+    line-height: 14px;
+    margin-left: 10px; 
+    text-align: left;
+}
+.small{
+    font-size: 18px ;
+    color: black;
+}
+
+.big{
+    font-size: 36px ;
+    font-weight: bold;
+    color: black;
+}
